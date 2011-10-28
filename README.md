@@ -57,4 +57,4 @@ Endtime for the range-query, defaults to Now
 
 Advanced Topics
 ---------------
-Ernie does not support persistent connections at the moment, which can really slow down the whole system if you have many update and fetch requests for Whisbert. I provide a [fork of Ernie](http://github.com/dergraf/ernie) that should solve this problem. 
+Ernie does not support persistent connections at the moment, which can really slow down the whole system if you have many update and fetch requests for Whisbert. I provide a [fork of Ernie](http://github.com/dergraf/ernie/tree/persistent_conns) that should solve this problem. 
