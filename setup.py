@@ -19,6 +19,7 @@ setup(name = 'whisbert',
         'python-bert',
         'python-ernie'],
     dependency_links = [
-        'https://github.com/tylerneylon/python-ernie'
+        'https://github.com/samuel/python-bert/tarball/master#egg=bert',
+        'https://github.com/tylerneylon/python-ernie/tarball/master#egg=ernie'
     ]
 )
