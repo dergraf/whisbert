@@ -17,7 +17,7 @@ setup(name = 'whisbert',
     install_requires = [
         'eventlet',
         'bert>=2.0.0',
-        'ernie=>2.0.0'],
+        'ernie>=2.0.0'],
     dependency_links = [
         'http://github.com/samuel/python-bert/tarball/master#egg=bert-2.0.0',
         'http://github.com/tylerneylon/python-ernie/tarball/master#egg=ernie-2.0.0'
